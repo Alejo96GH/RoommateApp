@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApplication2020</string>
+    <string name="abrir_otra_interfax">Interfax</string>
+    <string name="title_activity_receptor">ReceptorActivity</string>
+    <string name="abrir_bateria">Bateria</string>
+    <string name="abrir_interfax">Interfax</string>
+    <string name="abrir_item1">Registrarse</string>
+    <string name="digite_el_correo">Correo Electrónico</string>
+    <string name="digite_la_contraseña">Contraseña</string>
+    <string name="agregar_nombre">Nombre de Usuario</string>
+</resources>
