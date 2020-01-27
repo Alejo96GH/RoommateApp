@@ -4,31 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/ilogo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        app:srcCompat="@android:color/transparent" />
 
     <EditText
         android:id="@+id/et_correoM"
-        android:layout_width="match_parent"
+        android:layout_width="253dp"
         android:layout_height="wrap_content"
-        android:hint="@string/digite_el_correo" />
+        android:layout_gravity="center|center_vertical"
+        android:background="@color/darkgray"
+        android:hint="@string/digite_el_correo"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        app:srcCompat="@android:color/transparent" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/et_contraseñaM"
-        android:hint="@string/digite_la_contraseña"/>
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/darkgray"
+        android:hint="@string/digite_la_contraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        app:srcCompat="@android:color/transparent" />
 
     <Button
         android:id="@+id/bt_sesion"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:text="Iniciar sesión"
+        android:textColor="@color/floralwhite"
+        android:textColorHint="@color/aliceblue" />
+
+    <ImageView
+        android:id="@+id/imageView9"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Iniciar sesión" />
+        android:layout_height="128dp"
+        app:srcCompat="@android:color/transparent" />
 
-    <TextView
-        android:id="@+id/tv_ensayo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="291dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/inombrer" />
 
 
-</LinearLayout>
+    </LinearLayout>

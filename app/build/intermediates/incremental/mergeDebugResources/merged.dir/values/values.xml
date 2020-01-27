@@ -1,5 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <integer-array name="EditColors">
+
+        <item>@color/black</item>
+        <item>@color/navy</item>
+        <item>@color/darkblue</item>
+        <item>@color/mediumblue</item>
+        <item>@color/blue</item>
+        <item>@color/midnightblue</item>
+        <item>@color/indigo</item>
+        <item>@color/maroon</item>
+        <item>@color/darkred</item>
+        <item>@color/purple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkmagenta</item>
+        <item>@color/darkviolet</item>
+        <item>@color/darkslategray</item>
+        <item>@color/darkslateblue </item>
+        <item>@color/green </item>
+        <item>@color/red </item>
+        <item>@color/firebrick </item>
+        <item>@color/brown </item>
+        <item>@color/saddlebrown </item>
+        <item>@color/crimson </item>
+        <item>@color/mediumvioletred </item>
+        <item>@color/teal </item>
+        <item>@color/blueviolet </item>
+        <item>@color/darkolivegreen </item>
+        <item>@color/forestgreen </item>
+        <item>@color/darkcyan </item>
+        <item>@color/darkorchid </item>
+        <item>@color/sienna </item>
+        <item>@color/deeppink </item>
+        <item>@color/dimgray </item>
+        <item>@color/seagreen </item>
+        <item>@color/fuchsia </item>
+        <item>@color/royalblue </item>
+        <item>@color/slateblue </item>
+        <item>@color/olive </item>
+        <item>@color/orangered </item>
+        <item>@color/steelblue </item>
+        <item>@color/olivedrab </item>
+        <item>@color/dodgerblue </item>
+        <item>@color/mediumslateblue </item>
+        <item>@color/slategray </item>
+        <item>@color/indianred </item>
+        <item>@color/chocolate </item>
+        <item>@color/gray </item>
+        <item>@color/mediumorchid </item>
+        <item>@color/lightslategray </item>
+        <item>@color/lightseagreen </item>
+        <item>@color/mediumpurple </item>
+        <item>@color/darkgoldenrod </item>
+        <item>@color/mediumseagreen </item>
+        <item>@color/cadetblue </item>
+        <item>@color/limegreen </item>
+        <item>@color/deepskyblue </item>
+        <item>@color/tomato </item>
+        <item>@color/cornflowerblue </item>
+        <item>@color/darkturquoise </item>
+        <item>@color/peru </item>
+        <item>@color/palevioletred </item>
+        <item>@color/lime </item>
+        <item>@color/orchid </item>
+        <item>@color/rosybrown </item>
+        <item>@color/hotpink </item>
+        <item>@color/darkorange </item>
+        <item>@color/coral </item>
+        <item>@color/lightcoral </item>
+        <item>@color/salmon </item>
+        <item>@color/springgreen </item>
+        <item>@color/mediumspringgreen </item>
+        <item>@color/goldenrod </item>
+        <item>@color/mediumturquoise </item>
+        <item>@color/darkgray </item>
+        <item>@color/darkseagreen </item>
+        <item>@color/mediumaquamarine </item>
+        <item>@color/darksalmon </item>
+        <item>@color/yellowgreen </item>
+        <item>@color/orange </item>
+        <item>@color/turquoise </item>
+        <item>@color/violet </item>
+        <item>@color/darkkhaki </item>
+        <item>@color/aqua </item>
+        <item>@color/sandybrown </item>
+        <item>@color/lightsalmon </item>
+        <item>@color/tan </item>
+        <item>@color/lawngreen </item>
+        <item>@color/plum </item>
+        <item>@color/chartreuse </item>
+        <item>@color/skyblue </item>
+        <item>@color/burlywood </item>
+        <item>@color/lightskyblue </item>
+        <item>@color/silver </item>
+        <item>@color/lightsteelblue </item>
+        <item>@color/lightgreen </item>
+        <item>@color/thistle </item>
+        <item>@color/gold </item>
+        <item>@color/lightblue </item>
+        <item>@color/lightpink </item>
+        <item>@color/greenyellow </item>
+        <item>@color/palegreen </item>
+        <item>@color/powderblue </item>
+        <item>@color/lightgray </item>
+        <item>@color/aquamarine </item>
+        <item>@color/pink </item>
+        <item>@color/paleturquoise </item>
+        <item>@color/gainsboro </item>
+        <item>@color/khaki </item>
+        <item>@color/wheat </item>
+        <item>@color/peachpuff </item>
+        <item>@color/yellow </item>
+        <item>@color/navajowhite </item>
+        <item>@color/palegoldenrod </item>
+        <item>@color/moccasin </item>
+        <item>@color/lavender </item>
+        <item>@color/bisque </item>
+        <item>@color/mistyrose </item>
+        <item>@color/antiquewhite </item>
+        <item>@color/blanchedalmond </item>
+        <item>@color/papayawhip </item>
+        <item>@color/linen </item>
+        <item>@color/beige </item>
+        <item>@color/whitesmoke </item>
+        <item>@color/lavenderblush </item>
+        <item>@color/lightgoldenrodyellow </item>
+        <item>@color/oldlace </item>
+        <item>@color/lightcyan </item>
+        <item>@color/lemonchiffon </item>
+        <item>@color/aliceblue </item>
+        <item>@color/cornsilk </item>
+        <item>@color/seashell </item>
+        <item>@color/ghostwhite </item>
+        <item>@color/honeydew </item>
+        <item>@color/floralwhite </item>
+        <item>@color/azure </item>
+        <item>@color/mintcream </item>
+        <item>@color/lightyellow </item>
+        <item>@color/snow </item>
+        <item>@color/ivory </item>
+        <item>@color/white </item>
+    </integer-array>
     <attr format="boolean" name="barrierAllowsGoneWidgets"/>
     <attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
@@ -174,25 +315,64 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <item name="aliceblue" type="color">#f0f8ff</item>
+    <item name="antiquewhite" type="color">#faebd7</item>
+    <item name="aqua" type="color">#00ffff</item>
+    <item name="aquamarine" type="color">#7fffd4</item>
+    <item name="azure" type="color">#f0ffff</item>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <item name="beige" type="color">#f5f5dc</item>
+    <item name="bisque" type="color">#ffe4c4</item>
+    <item name="black" type="color">#000000</item>
+    <item name="blanchedalmond" type="color">#ffebcd</item>
+    <item name="blue" type="color">#0000ff</item>
+    <item name="blueviolet" type="color">#8a2be2</item>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <item name="brown" type="color">#a52a2a</item>
+    <item name="burlywood" type="color">#deb887</item>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <item name="cadetblue" type="color">#5f9ea0</item>
     <color name="cardview_dark_background">#FF424242</color>
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <item name="chartreuse" type="color">#7fff00</item>
+    <item name="chocolate" type="color">#d2691e</item>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <item name="coral" type="color">#ff7f50</item>
+    <item name="cornflowerblue" type="color">#6495ed</item>
+    <item name="cornsilk" type="color">#fff8dc</item>
+    <item name="crimson" type="color">#dc143c</item>
+    <item name="darkblue" type="color">#00008b</item>
+    <item name="darkcyan" type="color">#008b8b</item>
+    <item name="darkgoldenrod" type="color">#b8860b</item>
+    <item name="darkgray" type="color">#a9a9a9</item>
+    <item name="darkgreen" type="color">#8b008b</item>
+    <item name="darkkhaki" type="color">#bdb76b</item>
+    <item name="darkmagenta" type="color">#9400d3</item>
+    <item name="darkolivegreen" type="color">#556b2f</item>
+    <item name="darkorange" type="color">#ff8c00</item>
+    <item name="darkorchid" type="color">#9932cc</item>
+    <item name="darkred" type="color">#8b0000</item>
+    <item name="darksalmon" type="color">#e9967a</item>
+    <item name="darkseagreen" type="color">#8fbc8f</item>
+    <item name="darkslateblue" type="color">#483d8b</item>
+    <item name="darkslategray" type="color">#2f4f4f</item>
+    <item name="darkturquoise" type="color">#00ced1</item>
+    <item name="darkviolet" type="color">#006400</item>
+    <item name="deeppink" type="color">#ff1493</item>
+    <item name="deepskyblue" type="color">#00bfff</item>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_default_color_primary">#3F51B5</color>
     <color name="design_default_color_primary_dark">#303F9F</color>
@@ -208,12 +388,53 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <item name="dimgray" type="color">#696969</item>
+    <item name="dodgerblue" type="color">#1e90ff</item>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
+    <item name="firebrick" type="color">#b22222</item>
+    <item name="floralwhite" type="color">#fffaf0</item>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <item name="forestgreen" type="color">#228b22</item>
+    <item name="fuchsia" type="color">#ff00ff</item>
+    <item name="gainsboro" type="color">#dcdcdc</item>
+    <item name="ghostwhite" type="color">#f8f8ff</item>
+    <item name="gold" type="color">#ffd700</item>
+    <item name="goldenrod" type="color">#daa520</item>
+    <item name="gray" type="color">#808080</item>
+    <item name="green" type="color">#008000</item>
+    <item name="greenyellow" type="color">#adff2f</item>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <item name="honeydew" type="color">#f0fff0</item>
+    <item name="hotpink" type="color">#ff69b4</item>
+    <color name="ic_launcher_background">#000000</color>
+    <item name="indianred" type="color">#cd5c5c</item>
+    <item name="indigo" type="color">#4b0082</item>
+    <item name="ivory" type="color">#fffff0</item>
+    <item name="khaki" type="color">#f0e68c</item>
+    <item name="lavender" type="color">#e6e6fa</item>
+    <item name="lavenderblush" type="color">#fff0f5</item>
+    <item name="lawngreen" type="color">#7cfc00</item>
+    <item name="lemonchiffon" type="color">#fffacd</item>
+    <item name="lightblue" type="color">#add8e6</item>
+    <item name="lightcoral" type="color">#f08080</item>
+    <item name="lightcyan" type="color">#e0ffff</item>
+    <item name="lightgoldenrodyellow" type="color">#fafad2</item>
+    <item name="lightgray" type="color">#d3d3d3</item>
+    <item name="lightgreen" type="color">#90ee90</item>
+    <item name="lightpink" type="color">#ffb6c1</item>
+    <item name="lightsalmon" type="color">#ffa07a</item>
+    <item name="lightseagreen" type="color">#20b2aa</item>
+    <item name="lightskyblue" type="color">#87cefa</item>
+    <item name="lightslategray" type="color">#778899</item>
+    <item name="lightsteelblue" type="color">#b0c4de</item>
+    <item name="lightyellow" type="color">#ffffe0</item>
+    <item name="lime" type="color">#00ff00</item>
+    <item name="limegreen" type="color">#32cd32</item>
+    <item name="linen" type="color">#faf0e6</item>
+    <item name="maroon" type="color">#800000</item>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -226,6 +447,19 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+    <item name="mediumaquamarine" type="color">#66cdaa</item>
+    <item name="mediumblue" type="color">#0000cd</item>
+    <item name="mediumorchid" type="color">#ba55d3</item>
+    <item name="mediumpurple" type="color">#9370d8</item>
+    <item name="mediumseagreen" type="color">#3cb371</item>
+    <item name="mediumslateblue" type="color">#7b68ee</item>
+    <item name="mediumspringgreen" type="color">#00fa9a</item>
+    <item name="mediumturquoise" type="color">#48d1cc</item>
+    <item name="mediumvioletred" type="color">#c71585</item>
+    <item name="midnightblue" type="color">#191970</item>
+    <item name="mintcream" type="color">#f5fffa</item>
+    <item name="mistyrose" type="color">#ffe4e1</item>
+    <item name="moccasin" type="color">#ffe4b5</item>
     <color name="mtrl_btn_bg_color_disabled">#1F000000</color>
     <color name="mtrl_btn_text_color_disabled">#61000000</color>
     <color name="mtrl_btn_transparent_bg_color">#00ffffff</color>
@@ -234,8 +468,26 @@
     <color name="mtrl_textinput_disabled_color">#1F000000</color>
     <color name="mtrl_textinput_filled_box_default_background_color">#0A000000</color>
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
+    <item name="navajowhite" type="color">#ffdead</item>
+    <item name="navy" type="color">	#000080</item>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <item name="oldlace" type="color">#fdf5e6</item>
+    <item name="olive" type="color">#808000</item>
+    <item name="olivedrab" type="color">#6b8e23</item>
+    <item name="orange" type="color">#ffa500</item>
+    <item name="orangered" type="color">#ff4500</item>
+    <item name="orchid" type="color">#da70d6</item>
+    <item name="palegoldenrod" type="color">#eee8aa</item>
+    <item name="palegreen" type="color">#98fb98</item>
+    <item name="paleturquoise" type="color">#afeeee</item>
+    <item name="palevioletred" type="color">#d87093</item>
+    <item name="papayawhip" type="color">#ffefd5</item>
+    <item name="peachpuff" type="color">#ffdab9</item>
+    <item name="peru" type="color">#cd853f</item>
+    <item name="pink" type="color">#ffc0cb</item>
+    <item name="plum" type="color">#dda0dd</item>
+    <item name="powderblue" type="color">#b0e0e6</item>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -244,18 +496,46 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <item name="purple" type="color">#800080</item>
+    <item name="red" type="color">#ff0000</item>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
+    <item name="rosybrown" type="color">#bc8f8f</item>
+    <item name="royalblue" type="color">#4169e1</item>
+    <item name="saddlebrown" type="color">#8b4513</item>
+    <item name="salmon" type="color">#fa8072</item>
+    <item name="sandybrown" type="color">#f4a460</item>
+    <item name="seagreen" type="color">#2e8b57</item>
+    <item name="seashell" type="color">#fff5ee</item>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <item name="sienna" type="color">#a0522d</item>
+    <item name="silver" type="color">#c0c0c0</item>
+    <item name="skyblue" type="color">#87ceeb</item>
+    <item name="slateblue" type="color">#6a5acd</item>
+    <item name="slategray" type="color">#708090</item>
+    <item name="snow" type="color">#fffafa</item>
+    <item name="springgreen" type="color">#00ff7f</item>
+    <item name="steelblue" type="color">#4682b4</item>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <item name="tan" type="color">#d2b48c</item>
+    <item name="teal" type="color">#008080</item>
+    <item name="thistle" type="color">#d8bfd8</item>
+    <item name="tomato" type="color">#ff6347</item>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <item name="turquoise" type="color">#40e0d0</item>
+    <item name="violet" type="color">#ee82ee</item>
+    <item name="wheat" type="color">#f5deb3</item>
+    <item name="white" type="color">#ffffff</item>
+    <item name="whitesmoke" type="color">#f5f5f5</item>
+    <item name="yellow" type="color">#ffff00</item>
+    <item name="yellowgreen" type="color">#9acd32</item>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -567,6 +847,7 @@
     <string name="abrir_bateria">Bateria</string>
     <string name="abrir_interfax">Interfax</string>
     <string name="abrir_item1">Registrarse</string>
+    <string name="abrir_item2">Cerrar sesión</string>
     <string name="abrir_otra_interfax">Interfax</string>
     <string name="agregar_nombre">Nombre de Usuario</string>
     <string name="app_name">MyApplication2020</string>
@@ -599,9 +880,9 @@
   </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#696969</item>
+        <item name="colorAccent">#ffd700</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.NoActionBar">

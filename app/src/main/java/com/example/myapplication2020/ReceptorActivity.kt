@@ -27,7 +27,6 @@ class ReceptorActivity : AppCompatActivity() {
                 intent.putExtra( "nombre",  nombreR)
                 intent.putExtra( "correo", correoR )
                 intent.putExtra( "password",  passwordR)
-
                 setResult(Activity.RESULT_OK,intent)
             }
             finish()

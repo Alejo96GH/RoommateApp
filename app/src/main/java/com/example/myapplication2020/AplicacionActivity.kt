@@ -4,6 +4,8 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_aplicacion.*
 import kotlinx.android.synthetic.main.activity_receptor.*
@@ -12,6 +14,7 @@ class AplicacionActivity : AppCompatActivity() {
 
     var nombreA = ""
     var correoA = ""
+    var passwordA = ""
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,8 +22,30 @@ class AplicacionActivity : AppCompatActivity() {
         setContentView(R.layout.activity_aplicacion)
         var datosRecibidos = intent.extras
         nombreA = datosRecibidos?.getString("nombre").toString()
+        correoA = datosRecibidos?.getString("correo").toString()
+        passwordA = datosRecibidos?.getString("password").toString()
         tv_bienvenido.text = "Bienvenido " + nombreA
     }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_overflow1, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.punticos2) {
+
+            intent.putExtra( "nombre",  nombreA)
+            intent.putExtra( "correo", correoA )
+            intent.putExtra( "password",  passwordA)
+            setResult(Activity.RESULT_OK,intent)
+            finish()
+        }
+
+        return super.onOptionsItemSelected(item)
+    }
+
+
 
 
     //override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

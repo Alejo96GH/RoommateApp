@@ -30,13 +30,12 @@ class MainActivity : AppCompatActivity() {
 
             if (correoM == correo) {
                 if (contraseñaM == contraseña) {
-                    tv_ensayo.text = "Si"
 
                     var intent = Intent(this, AplicacionActivity::class.java)
                     intent.putExtra( "nombre", nombreM)
                     intent.putExtra( "correo", correoM)
                     intent.putExtra( "password",  contraseñaM)
-                    startActivity(intent)
+                    startActivityForResult(intent, 1996)
 
                 } else {
                     Toast.makeText( this, "Contraseña incorrecta", Toast.LENGTH_SHORT).show()
@@ -45,7 +44,6 @@ class MainActivity : AppCompatActivity() {
 
             else{
                 Toast.makeText( this, "Usted no está registrado", Toast.LENGTH_SHORT).show()
-                tv_ensayo.text = "No"
             }
         }
 
@@ -89,9 +87,6 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.punticos1) {
             var intent = Intent(this, ReceptorActivity::class.java)
-            // Usarlos cuando se desee enviar informacion de actividad a actividad
-            //       intent.putExtra( "Nombre", "Edwin" )
-            //       intent.putExtra( "Calificacion", 5)
             startActivityForResult(intent, 1234)
         }
 
@@ -100,7 +95,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if(requestCode == 1234 && resultCode == Activity.RESULT_OK) {
-            Toast.makeText(this, "Bienvenido " + data?.extras?.getString("nombre"), Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, data?.extras?.getString("nombre") + ", usted ha sido registrado." , Toast.LENGTH_SHORT).show()
             super.onActivityResult(requestCode, resultCode, data)
 
             nombreM = data?.extras?.getString("nombre").toString()
@@ -108,16 +103,24 @@ class MainActivity : AppCompatActivity() {
             contraseña = data?.extras?.getString("password").toString()
 
         }
+
         else{
             if(requestCode == 1234){
                 Toast.makeText( this, "Registro fallido", Toast.LENGTH_SHORT).show()
             }
         }
+
+        if(requestCode == 1996) {
+            Toast.makeText( this, "Sesión cerrada", Toast.LENGTH_SHORT).show()
+        }
     }
+
+
 
     override fun onBackPressed() {
         super.onBackPressed()
         finish()
+
     }
 
 }

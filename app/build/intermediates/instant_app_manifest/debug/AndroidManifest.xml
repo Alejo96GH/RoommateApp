@@ -24,12 +24,16 @@
             android:name="com.example.myapplication2020.ReceptorActivity"
             android:label="@string/title_activity_receptor"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.myapplication2020.MainActivity" >
+        <activity
+            android:name="com.example.myapplication2020.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.myapplication2020.MainActivity" >
         </activity>
     </application>
 

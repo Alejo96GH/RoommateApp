@@ -8,4 +8,5 @@
     <string name="digite_el_correo">Correo Electrónico</string>
     <string name="digite_la_contraseña">Contraseña</string>
     <string name="agregar_nombre">Nombre de Usuario</string>
+    <string name="abrir_item2">Cerrar sesión</string>
 </resources>
