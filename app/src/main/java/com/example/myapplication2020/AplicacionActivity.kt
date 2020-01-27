@@ -24,7 +24,15 @@ class AplicacionActivity : AppCompatActivity() {
         nombreA = datosRecibidos?.getString("nombre").toString()
         correoA = datosRecibidos?.getString("correo").toString()
         passwordA = datosRecibidos?.getString("password").toString()
-        tv_bienvenido.text = "Bienvenido " + nombreA
+        tv_bienvenido.text = "Bienvenido " + nombreA +", su correo de registro es: " + correoA + "."
+
+        bt_agregar.setOnClickListener {
+            Toast.makeText( this, "Seleccionada la opción de agregar", Toast.LENGTH_SHORT).show()
+        }
+
+        bt_buscar.setOnClickListener {
+            Toast.makeText( this, "Seleccionada la opción de buscar", Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

@@ -1141,6 +1141,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable iagregar
+drawable ibuscar
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1205,6 +1207,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bt_agregar
+id bt_buscar
 id bt_registrar
 id bt_sesion
 id buttonPanel
@@ -1262,6 +1266,10 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView10
+id imageView11
+id imageView12
+id imageView13
 id imageView2
 id imageView3
 id imageView4
@@ -1380,6 +1388,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_agregarobuscar
 id tv_bienvenido
 id uniform
 id unlabeled
