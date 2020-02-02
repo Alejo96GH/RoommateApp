@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
                     intent.putExtra( "nombre", nombreM)
                     intent.putExtra( "correo", correoM)
                     intent.putExtra( "password",  contraseñaM)
-                    startActivityForResult(intent, 1996)
+                    startActivity(intent)
+                    finish()
 
                 } else {
                     Toast.makeText( this, "Contraseña incorrecta", Toast.LENGTH_SHORT).show()
@@ -89,7 +90,6 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this, ReceptorActivity::class.java)
             startActivityForResult(intent, 1234)
         }
-
         return super.onOptionsItemSelected(item)
     }
 
@@ -113,14 +113,6 @@ class MainActivity : AppCompatActivity() {
         if(requestCode == 1996) {
             Toast.makeText( this, "Sesión cerrada", Toast.LENGTH_SHORT).show()
         }
-    }
-
-
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        finish()
-
     }
 
 }

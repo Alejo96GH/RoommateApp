@@ -9,4 +9,6 @@
     <string name="digite_la_contraseña">Contraseña</string>
     <string name="agregar_nombre">Nombre de Usuario</string>
     <string name="abrir_item2">Cerrar sesión</string>
+    <string name="nombre_de_aplicacion">Roommate</string>
+    <string name="digite_la_contraseña1">Confirmar contraseña</string>
 </resources>

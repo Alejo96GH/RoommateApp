@@ -11,7 +11,7 @@
 9-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:5:5-29:19
+11-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:5:5-32:19
 12        android:allowBackup="true"
 12-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,38 +28,44 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.myapplication2020.AplicacionActivity" />
-21-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:12:9-56
-21-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:12:19-53
-22        <activity
-22-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:13:9-16:59
-23            android:name="com.example.myapplication2020.ReceptorActivity"
-23-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:14:13-45
-24            android:label="@string/title_activity_receptor"
-24-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:15:13-60
-25            android:theme="@style/AppTheme.NoActionBar" />
-25-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:16:13-56
-26        <activity
-26-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:17:9-24:20
-27            android:name="com.example.myapplication2020.SplashActivity"
-27-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:17:19-49
-28            android:theme="@style/AppTheme.NoActionBar" >
-28-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:18:13-56
-29            <intent-filter>
-29-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:19:13-23:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:20:17-69
-30-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:20:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:22:17-77
-32-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:22:27-74
-33            </intent-filter>
-34        </activity>
-35        <activity android:name="com.example.myapplication2020.MainActivity" >
-35-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:26:9-27:20
-35-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:26:19-47
+21        <activity
+21-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:12:9-13:59
+22            android:name="com.example.myapplication2020.AplicacionActivity"
+22-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:12:19-53
+23            android:label="@string/nombre_de_aplicacion" />
+23-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:13:13-57
+24        <activity
+24-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:14:9-17:59
+25            android:name="com.example.myapplication2020.ReceptorActivity"
+25-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:15:13-45
+26            android:label="@string/title_activity_receptor"
+26-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:16:13-60
+27            android:theme="@style/AppTheme.NoActionBar" />
+27-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:17:13-56
+28        <activity
+28-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:18:9-25:20
+29            android:name="com.example.myapplication2020.SplashActivity"
+29-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:18:19-49
+30            android:theme="@style/AppTheme.NoActionBar" >
+30-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:19:13-56
+31            <intent-filter>
+31-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:20:13-24:25
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:21:13-65
+32-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:21:21-62
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:23:13-73
+34-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:23:23-70
+35            </intent-filter>
 36        </activity>
-37    </application>
-38
-39</manifest>
+37        <activity
+37-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:27:9-30:20
+38            android:name="com.example.myapplication2020.MainActivity"
+38-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:27:19-47
+39            android:label="@string/nombre_de_aplicacion" >
+39-->C:\Users\Alejandro\AndroidStudioProjects\Moneda\MyApplication2020\app\src\main\AndroidManifest.xml:28:13-57
+40        </activity>
+41    </application>
+42
+43</manifest>

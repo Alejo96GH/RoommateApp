@@ -43,14 +43,20 @@ class AplicacionActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.punticos2) {
 
-            intent.putExtra( "nombre",  nombreA)
-            intent.putExtra( "correo", correoA )
+            var intent = Intent(this, MainActivity::class.java)
+            intent.putExtra( "nombre", nombreA)
+            intent.putExtra( "correo", correoA)
             intent.putExtra( "password",  passwordA)
-            setResult(Activity.RESULT_OK,intent)
+            startActivity(intent)
             finish()
         }
 
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
     }
 
 
