@@ -24,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d("Método", "OnCreate")
 
+        bt_regi.setOnClickListener {
+            var intent = Intent(this, ReceptorActivity::class.java)
+            startActivityForResult(intent, 1234)
+        }
+
         bt_sesion.setOnClickListener {
             correoM = et_correoM.text.toString()
             contraseñaM = et_contraseñaM.text.toString()
@@ -80,18 +85,6 @@ class MainActivity : AppCompatActivity() {
         Log.d("Método", "OnDestroy")
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_overflow, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.punticos1) {
-            var intent = Intent(this, ReceptorActivity::class.java)
-            startActivityForResult(intent, 1234)
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if(requestCode == 1234 && resultCode == Activity.RESULT_OK) {
