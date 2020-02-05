@@ -3,6 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="New">#919191</color>
+    <color name="newblue">#DC22227A</color>
     <item name="black" type="color">#000000</item>
     <item name="navy" type="color">	#000080</item>
     <item name="darkblue" type="color">#00008b</item>
@@ -42,7 +44,7 @@
     <item name="orangered" type="color">#ff4500</item>
     <item name="steelblue" type="color">#4682b4</item>
     <item name="olivedrab" type="color">#6b8e23</item>
-    <item name="dodgerblue" type="color">#1e90ff</item>
+    <item name="dodgerblue" type="color">#1E90FF</item>
     <item name="mediumslateblue" type="color">#7b68ee</item>
     <item name="slategray" type="color">#708090</item>
     <item name="indianred" type="color">#cd5c5c</item>
@@ -118,12 +120,12 @@
     <item name="lavender" type="color">#e6e6fa</item>
     <item name="bisque" type="color">#ffe4c4</item>
     <item name="mistyrose" type="color">#ffe4e1</item>
-    <item name="antiquewhite" type="color">#faebd7</item>
+    <item name="antiquewhite" type="color">#FAEBD7</item>
     <item name="blanchedalmond" type="color">#ffebcd</item>
     <item name="papayawhip" type="color">#ffefd5</item>
     <item name="linen" type="color">#faf0e6</item>
     <item name="beige" type="color">#f5f5dc</item>
-    <item name="whitesmoke" type="color">#f5f5f5</item>
+    <item name="whitesmoke" type="color">#FFFFFF</item>
     <item name="lavenderblush" type="color">#fff0f5</item>
     <item name="lightgoldenrodyellow" type="color">#fafad2</item>
     <item name="oldlace" type="color">#fdf5e6</item>

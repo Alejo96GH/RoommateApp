@@ -564,6 +564,7 @@ bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color New
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -765,6 +766,7 @@ color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_hovered_box_stroke_color
 color navajowhite
 color navy
+color newblue
 color notification_action_color_filter
 color notification_icon_bg_color
 color oldlace
@@ -1209,9 +1211,9 @@ id blocking
 id bottom
 id bt_agregar
 id bt_buscar
+id bt_regi
 id bt_registrar
 id bt_sesion
-id bt_sesion2
 id buttonPanel
 id center
 id center_horizontal
@@ -1268,7 +1270,6 @@ id icon_group
 id ifRoom
 id image
 id imageView
-id imageView10
 id imageView11
 id imageView12
 id imageView13
@@ -1276,6 +1277,7 @@ id imageView14
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id imageView6
 id imageView7
 id imageView8
@@ -1373,8 +1375,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
-id textView2
 id textView3
 id text_input_password_toggle
 id textinput_counter

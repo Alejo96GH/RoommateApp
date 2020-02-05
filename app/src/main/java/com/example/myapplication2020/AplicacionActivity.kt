@@ -24,7 +24,7 @@ class AplicacionActivity : AppCompatActivity() {
         nombreA = datosRecibidos?.getString("nombre").toString()
         correoA = datosRecibidos?.getString("correo").toString()
         passwordA = datosRecibidos?.getString("password").toString()
-        tv_bienvenido.text = "Bienvenido " + nombreA +", su correo de registro es: " + correoA + "."
+        tv_bienvenido.text = "Bienvenido " + nombreA +""
 
         bt_agregar.setOnClickListener {
             Toast.makeText( this, "Seleccionada la opción de agregar", Toast.LENGTH_SHORT).show()
