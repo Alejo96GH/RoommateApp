@@ -16,10 +16,10 @@ class ReceptorActivity : AppCompatActivity() {
 
 
         bt_registrar.setOnClickListener{
-            var nombreR :String = et_nombre.text.toString()
-            var correoR :String = et_correo.text.toString()
-            var passwordR :String = et_contraseña.text.toString()
-            var passwordR1 :String = et_contraseña1.text.toString()
+            var nombreR :String = tiet_nombre.text.toString()
+            var correoR :String = tiet_correo.text.toString()
+            var passwordR :String = tiet_contraseña.text.toString()
+            var passwordR1 :String = tiet_contraseña1.text.toString()
             var intent = Intent()
 
 

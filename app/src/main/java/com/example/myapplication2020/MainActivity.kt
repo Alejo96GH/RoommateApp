@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         bt_sesion.setOnClickListener {
-            correoM = et_correoM.text.toString()
-            contraseñaM = et_contraseñaM.text.toString()
+            correoM = tiet_correoM.text.toString()
+            contraseñaM = tiet_contraseñaM.text.toString()
 
             if (correoM == correo) {
                 if (contraseñaM == contraseña) {

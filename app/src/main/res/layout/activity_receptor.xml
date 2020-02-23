@@ -1,148 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/ifondoaplicacion"
     android:orientation="vertical"
-    tools:context=".ReceptorActivity">
+    tools:context=".ReceptorActivity"
+    >
 
-    <com.google.android.material.appbar.AppBarLayout
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ilogovacio" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/dodgerblue"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_correo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_nombre"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#FF1E90FF"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="wrap_content"
+            android:hint="Nombre de usuario"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <LinearLayout
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_correo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_contraseña"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre">
 
-        <ImageView
-            android:id="@+id/imageView4"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_correo"
             android:layout_width="match_parent"
-            android:layout_height="198dp"
-            app:srcCompat="@android:color/transparent" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="165dp"
-            app:srcCompat="@drawable/ilogo" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="match_parent"
-            android:layout_height="24dp"
-            app:srcCompat="@android:color/transparent" />
-
-        <EditText
-            android:id="@+id/et_nombre"
-            android:layout_width="253dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center|center_vertical"
-            android:background="@android:color/transparent"
-            android:hint="Nombre de Usuario"
-            android:inputType="textPersonName"
-            android:textAlignment="center"
-            android:textColorHint="@color/New"
-            android:textStyle="bold" />
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <ImageView
-            android:id="@+id/imageView7"
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_correo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_contraseña"
             android:layout_width="match_parent"
-            android:layout_height="24dp"
-            app:srcCompat="@android:color/transparent" />
-
-        <EditText
-            android:id="@+id/et_correo"
-            android:layout_width="253dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center|center_vertical"
-            android:background="@android:color/transparent"
-            android:hint="@string/digite_el_correo"
-            android:inputType="textEmailAddress"
-            android:textAlignment="center"
-            android:textColorHint="@color/New"
-            android:textStyle="bold" />
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <ImageView
-            android:id="@+id/imageView6"
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_contraseña1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_contraseña">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_contraseña1"
             android:layout_width="match_parent"
-            android:layout_height="24dp"
-            app:srcCompat="@android:color/transparent" />
-
-        <EditText
-            android:id="@+id/et_contraseña"
-            android:layout_width="253dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@android:color/transparent"
-            android:hint="@string/digite_la_contraseña"
-            android:inputType="textPassword"
-            android:textAlignment="center"
-            android:textColorHint="@color/New"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="24dp"
-            app:srcCompat="@android:color/transparent" />
-
-        <EditText
-            android:id="@+id/et_contraseña1"
-            android:layout_width="253dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@android:color/transparent"
-            android:hint="@string/digite_la_contraseña1"
-            android:inputType="textPassword"
-            android:textAlignment="center"
-            android:textColorHint="@color/New"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="match_parent"
-            android:layout_height="24dp"
-            app:srcCompat="@android:color/transparent" />
-
-        <Button
-            android:id="@+id/bt_registrar"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="62dp"
-            android:layout_gravity="center"
-            android:text="Registrar"
-            android:textColor="@color/floralwhite"
-            android:textColorHint="@color/aliceblue" />
-
-        <ImageView
-            android:id="@+id/imageViewq10"
-            android:layout_width="match_parent"
-            android:layout_height="11dp"
-            app:srcCompat="@android:color/transparent" />
-
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="291dp"
-            android:layout_height="18dp"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/inombrer" />
-
-    </LinearLayout>
+            android:hint="Repetir contraseña"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <Button
+        android:id="@+id/bt_registrar"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:background="@color/AplicacionColor"
+        android:text="Registrarse"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_contraseña1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

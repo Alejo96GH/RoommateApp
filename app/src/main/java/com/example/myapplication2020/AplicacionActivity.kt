@@ -35,25 +35,6 @@ class AplicacionActivity : AppCompatActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_overflow1, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.punticos2) {
-
-            var intent = Intent(this, MainActivity::class.java)
-            intent.putExtra( "nombre", nombreA)
-            intent.putExtra( "correo", correoA)
-            intent.putExtra( "password",  passwordA)
-            startActivity(intent)
-            finish()
-        }
-
-        return super.onOptionsItemSelected(item)
-    }
-
     override fun onBackPressed() {
         super.onBackPressed()
         finish()

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyApplication2020</string>
+    <string name="app_name">Roommate</string>
     <string name="abrir_otra_interfax">Interfax</string>
     <string name="title_activity_receptor">ReceptorActivity</string>
     <string name="abrir_bateria">Bateria</string>

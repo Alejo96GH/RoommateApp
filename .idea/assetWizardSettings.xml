@@ -51,7 +51,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="scalingPercent" value="64" />
+                                                <entry key="scalingPercent" value="57" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -62,8 +62,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="000000" />
-                                      <entry key="foregroundImage" value="C:\Users\Alejandro\Downloads\ilogo.png" />
+                                      <entry key="backgroundColor" value="b3d2ec" />
+                                      <entry key="foregroundImage" value="C:\Users\Alejandro\Documents\Roommate\Logo.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
