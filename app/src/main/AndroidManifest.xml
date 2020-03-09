@@ -9,33 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".SplashActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+        <activity android:name=".UltimaAgregarActivity"></activity>
+        <activity android:name=".SiguienteAgregarActivity" />
+        <activity android:name=".AgregarActivity" />
+        <activity android:name=".PublicacionesActivity" />
         <activity
-            android:name=".AplicacionActivity"
-            android:label="@string/nombre_de_aplicacion">
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SesionActivity"
+            android:label="@string/nombre_de_aplicacion" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".ReceptorActivity"
-            android:label="@string/nombre_de_aplicacion">
-
+            android:name=".PrincipalActivity"
+            android:label="@string/nombre_de_aplicacion" >
         </activity>
-
         <activity
-            android:name=".MainActivity"
-            android:label="@string/nombre_de_aplicacion">
-
+            android:name=".RegisterActivity"
+            android:label="@string/nombre_de_aplicacion" >
         </activity>
-
     </application>
 
 </manifest>

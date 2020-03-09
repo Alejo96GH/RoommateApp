@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication2020.iml" filepath="$PROJECT_DIR$/MyApplication2020.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Roommate-MyApplication2020.iml" filepath="$PROJECT_DIR$/Roommate-MyApplication2020.iml" group="MyApplication2020" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MyApplication2020/app" />
     </modules>
   </component>
 </project>

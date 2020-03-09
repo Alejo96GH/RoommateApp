@@ -21,8 +21,9 @@ class SplashActivity : AppCompatActivity() {
         )
 
     }
+
      private fun goToMainActivity(){
-         val intent = Intent(this, MainActivity::class.java)
+         val intent = Intent(this, SesionActivity::class.java)
          startActivity(intent)
          finish()
      }

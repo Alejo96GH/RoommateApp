@@ -19,12 +19,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.myapplication2020.UltimaAgregarActivity" />
+        <activity android:name="com.example.myapplication2020.SiguienteAgregarActivity" />
+        <activity android:name="com.example.myapplication2020.AgregarActivity" />
+        <activity android:name="com.example.myapplication2020.PublicacionesActivity" />
         <activity
             android:name="com.example.myapplication2020.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.example.myapplication2020.AplicacionActivity"
+            android:name="com.example.myapplication2020.SesionActivity"
             android:label="@string/nombre_de_aplicacion" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,13 +37,49 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.myapplication2020.ReceptorActivity"
+            android:name="com.example.myapplication2020.PrincipalActivity"
             android:label="@string/nombre_de_aplicacion" >
         </activity>
         <activity
-            android:name="com.example.myapplication2020.MainActivity"
+            android:name="com.example.myapplication2020.RegisterActivity"
             android:label="@string/nombre_de_aplicacion" >
         </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.myapplication2020.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.myapplication2020.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

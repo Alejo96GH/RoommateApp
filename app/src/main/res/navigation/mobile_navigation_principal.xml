@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/mo_lista">
+
+    <fragment
+        android:id="@+id/mo_lista"
+        android:name="com.example.myapplication2020.ListaFragment"
+        android:label="@string/lista"
+        tools:layout="@layout/fragment_lista" />
+
+    <fragment
+        android:id="@+id/mo_mapa"
+        android:name="com.example.myapplication2020.MapaFragment"
+        android:label="@string/mapa"
+        tools:layout="@layout/fragment_mapa" />
+
+    <fragment
+        android:id="@+id/mo_perfil"
+        android:name="com.example.myapplication2020.PefilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>

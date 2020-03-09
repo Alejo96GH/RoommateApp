@@ -1,4 +1,4 @@
-#Sun Feb 23 18:15:13 COT 2020
-base.0=C\:\\Users\\Alejandro\\AndroidStudioProjects\\Moneda\\MyApplication2020\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Mon Mar 09 16:30:43 COT 2020
+base.0=C\:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
