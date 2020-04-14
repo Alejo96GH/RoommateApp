@@ -8,13 +8,13 @@
 
     <fragment
         android:id="@+id/mo_publicaciones"
-        android:name="com.example.myapplication2020.PublicacionesFragment"
+        android:name="com.example.myapplication2020.SesionPublicaciones.PublicacionesFragment"
         android:label="@string/publicaciones"
         tools:layout="@layout/fragment_publicaciones" />
 
     <fragment
         android:id="@+id/mo_favoritos"
-        android:name="com.example.myapplication2020.FavoritosFragment"
+        android:name="com.example.myapplication2020.SesionPublicaciones.FavoritosFragment"
         android:label="@string/favoritos"
         tools:layout="@layout/fragment_favoritos" />
 </navigation>

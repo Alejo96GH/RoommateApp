@@ -7,7 +7,7 @@
     android:background="@color/FondoColor"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SplashActivity">
+    tools:context=".EtapaInicial.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView2"

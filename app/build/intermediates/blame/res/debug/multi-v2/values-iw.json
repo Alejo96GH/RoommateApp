@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\5d90c48ec57a0711b2b79d95c4daf3af\\jetified-play-services-basement-17.0.0\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\44a8fd8a9c4e02a78ada51826dca3a62\\jetified-navigation-ui-2.0.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,119",
+                        "endOffsets": "156,276"
+                    },
+                    "to": {
+                        "startLines": "47,48",
+                        "startColumns": "4,4",
+                        "startOffsets": "5310,5416",
+                        "endColumns": "105,119",
+                        "endOffsets": "5411,5531"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\6f35b2ab0f6d2292e40dde792a51fb81\\jetified-play-services-basement-17.0.0\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -69,23 +86,6 @@
                         "startOffsets": "2751,2856,3042,3169,3275,3473,3600,3742,4051,4246,4351,4527,4652,4845,5020,5110,5200",
                         "endColumns": "104,185,126,105,197,126,141,131,194,104,175,124,192,174,89,89,109",
                         "endOffsets": "2851,3037,3164,3270,3468,3595,3737,3869,4241,4346,4522,4647,4840,5015,5105,5195,5305"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\068893b4903fbd74d815f54db06d9efd\\jetified-navigation-ui-2.0.0\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,119",
-                        "endOffsets": "156,276"
-                    },
-                    "to": {
-                        "startLines": "47,48",
-                        "startColumns": "4,4",
-                        "startOffsets": "5310,5416",
-                        "endColumns": "105,119",
-                        "endOffsets": "5411,5531"
                     }
                 }
             ]

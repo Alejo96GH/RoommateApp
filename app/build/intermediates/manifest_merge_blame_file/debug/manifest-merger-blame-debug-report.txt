@@ -10,140 +10,217 @@
 9        android:targetSdkVersion="29" />
 9-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:5:5-37:19
-12        android:allowBackup="true"
-12-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.2] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0fbe931aee3b8f6ac6e777aac58123c\core-1.0.2\AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.myapplication2020.UltimaAgregarActivity" />
-21-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:12:9-68
-21-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:12:19-56
-22        <activity android:name="com.example.myapplication2020.SiguienteAgregarActivity" />
-22-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:13:9-62
-22-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:13:19-59
-23        <activity android:name="com.example.myapplication2020.AgregarActivity" />
-23-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:14:9-53
-23-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:14:19-50
-24        <activity android:name="com.example.myapplication2020.PublicacionesActivity" />
-24-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:15:9-59
-24-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:15:19-56
-25        <activity
-25-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:16:9-19:20
-26            android:name="com.example.myapplication2020.SplashActivity"
-26-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:17:13-43
-27            android:theme="@style/AppTheme.NoActionBar" >
-27-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:18:13-56
-28        </activity>
-29        <activity
-29-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:20:9-28:20
-30            android:name="com.example.myapplication2020.SesionActivity"
-30-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:21:13-43
-31            android:label="@string/nombre_de_aplicacion" >
-31-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:22:13-57
-32            <intent-filter>
-32-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:23:13-27:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:24:17-69
-33-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:24:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:26:17-77
-35-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:26:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity
-38-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:29:9-32:20
-39            android:name="com.example.myapplication2020.PrincipalActivity"
-39-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:30:13-46
-40            android:label="@string/nombre_de_aplicacion" >
-40-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:31:13-57
-41        </activity>
-42        <activity
-42-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:33:9-36:20
-43            android:name="com.example.myapplication2020.RegisterActivity"
-43-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:34:13-45
-44            android:label="@string/nombre_de_aplicacion" >
-44-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:35:13-57
-45        </activity>
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\d6d0844ee9ea4703b869c1dea04585a4\jetified-debug-db-base-1.0.6\AndroidManifest.xml:29:5-67
+13-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\d6d0844ee9ea4703b869c1dea04585a4\jetified-debug-db-base-1.0.6\AndroidManifest.xml:29:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\d6d0844ee9ea4703b869c1dea04585a4\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:5-76
+14-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\d6d0844ee9ea4703b869c1dea04585a4\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:22-73
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f9fa4a77de14af7c98c16dab22721de7\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f9fa4a77de14af7c98c16dab22721de7\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f9fa4a77de14af7c98c16dab22721de7\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:8:5-48:19
+23        android:name="com.example.myapplication2020.SesionPrincipal.SesionRoom"
+23-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:9:9-51
+24        android:allowBackup="true"
+24-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:10:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.0.2] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0fbe931aee3b8f6ac6e777aac58123c\core-1.0.2\AndroidManifest.xml:22:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:14:9-35
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:15:9-40
+32        <activity android:name="com.example.myapplication2020.EnDiseño.EdicionPerfilActivity" />
+32-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:16:9-77
+32-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:16:19-65
+33        <activity android:name="com.example.myapplication2020.SesionDescripcion.ChatActivity" />
+33-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:17:9-68
+33-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:17:19-65
+34        <activity android:name="com.example.myapplication2020.SesionDescripcion.DescripcionFavoritosActivity" />
+34-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:18:9-84
+34-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:18:19-81
+35        <activity android:name="com.example.myapplication2020.SesionDescripcion.DescripcionPublicacionesActivity" />
+35-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:19:9-88
+35-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:19:19-85
+36        <activity android:name="com.example.myapplication2020.SesionDescripcion.DescripcionPrincipalActivity" />
+36-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:20:9-84
+36-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:20:19-81
+37
+38        <meta-data
+38-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:22:9-24:55
+39            android:name="com.google.android.geo.API_KEY"
+39-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:23:13-58
+40            android:value="@string/google_maps_key" />
+40-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:24:13-52
+41
+42        <activity android:name="com.example.myapplication2020.SesionAgregar.AgregarActivity1" />
+42-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:26:9-68
+42-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:26:19-65
+43        <activity android:name="com.example.myapplication2020.SesionAgregar.AgregarActivity2" />
+43-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:27:9-68
+43-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:27:19-65
+44        <activity android:name="com.example.myapplication2020.SesionAgregar.AgregarActivity3" />
+44-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:28:9-68
+44-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:28:19-65
+45        <activity android:name="com.example.myapplication2020.SesionPublicaciones.PublicacionesActivity" />
+45-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:29:9-79
+45-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:29:19-76
 46        <activity
-46-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
-47            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-47-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
-48            android:excludeFromRecents="true"
-48-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
-49            android:exported="true"
-49-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
-50            android:launchMode="singleTask"
-50-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
-51            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-51-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
-52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-52-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
-53
-54        <service
-54-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
-55            android:name="com.google.firebase.components.ComponentDiscoveryService"
-55-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
-56            android:exported="false" >
-56-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
-57            <meta-data
-57-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
-58                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-58-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
-59                android:value="com.google.firebase.components.ComponentRegistrar" />
-59-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
-60        </service>
-61
-62        <activity
-62-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-63-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-64            android:exported="false"
-64-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-66
-67        <provider
-67-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5c174de6a4032f303d2a6fbce6a81b0b\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
-68            android:name="com.google.firebase.provider.FirebaseInitProvider"
-68-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5c174de6a4032f303d2a6fbce6a81b0b\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
-69            android:authorities="com.example.myapplication2020.firebaseinitprovider"
-69-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5c174de6a4032f303d2a6fbce6a81b0b\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
-70            android:exported="false"
-70-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5c174de6a4032f303d2a6fbce6a81b0b\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
-71            android:initOrder="100" />
-71-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5c174de6a4032f303d2a6fbce6a81b0b\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
-72
-73        <meta-data
-73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5d90c48ec57a0711b2b79d95c4daf3af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-74            android:name="com.google.android.gms.version"
-74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5d90c48ec57a0711b2b79d95c4daf3af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-75            android:value="@integer/google_play_services_version" />
-75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\5d90c48ec57a0711b2b79d95c4daf3af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-76
-77        <provider
-77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-78            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-79            android:authorities="com.example.myapplication2020.lifecycle-process"
-79-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-80            android:exported="false"
-80-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-81            android:multiprocess="true" />
-81-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-82    </application>
-83
-84</manifest>
+46-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:30:9-32:59
+47            android:name="com.example.myapplication2020.EtapaInicial.SplashActivity"
+47-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:31:13-56
+48            android:theme="@style/AppTheme.NoActionBar" />
+48-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:32:13-56
+49        <activity
+49-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:33:9-35:60
+50            android:name="com.example.myapplication2020.EtapaInicial.SesionActivity"
+50-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:34:13-56
+51            android:label="@string/nombre_de_aplicacion" />
+51-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:35:13-57
+52        <activity
+52-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:36:9-44:20
+53            android:name="com.example.myapplication2020.SesionPrincipal.PrincipalActivity"
+53-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:37:13-62
+54            android:label="@string/nombre_de_aplicacion" >
+54-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:38:13-57
+55            <intent-filter>
+55-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:39:13-43:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:40:17-69
+56-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:40:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:42:17-77
+58-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:42:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:45:9-47:60
+62            android:name="com.example.myapplication2020.EtapaInicial.RegisterActivity"
+62-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:46:13-58
+63            android:label="@string/nombre_de_aplicacion" />
+63-->C:\Users\Alejandro\AndroidStudioProjects\Roommate\app\src\main\AndroidManifest.xml:47:13-57
+64
+65        <provider
+65-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\4d122c1315243f310b7cc7e7aff3ebcc\debug-db-1.0.6\AndroidManifest.xml:12:9-16:40
+66            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+66-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\4d122c1315243f310b7cc7e7aff3ebcc\debug-db-1.0.6\AndroidManifest.xml:13:13-69
+67            android:authorities="com.example.myapplication2020.DebugDBInitProvider"
+67-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\4d122c1315243f310b7cc7e7aff3ebcc\debug-db-1.0.6\AndroidManifest.xml:14:13-71
+68            android:enabled="true"
+68-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\4d122c1315243f310b7cc7e7aff3ebcc\debug-db-1.0.6\AndroidManifest.xml:15:13-35
+69            android:exported="false" />
+69-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\4d122c1315243f310b7cc7e7aff3ebcc\debug-db-1.0.6\AndroidManifest.xml:16:13-37
+70
+71        <service
+71-->[androidx.room:room-runtime:2.2.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\04d1be235fc57828fa11b350c3a94a8b\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+72            android:name="androidx.room.MultiInstanceInvalidationService"
+72-->[androidx.room:room-runtime:2.2.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\04d1be235fc57828fa11b350c3a94a8b\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+73            android:exported="false" />
+73-->[androidx.room:room-runtime:2.2.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\04d1be235fc57828fa11b350c3a94a8b\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+74        <service
+74-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\fdb421d1f1d38e8ee580493e4442c829\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+79-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b1981dda694df58bd20eba7a3447a43\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+82                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+82-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+84        </service>
+85
+86        <activity
+86-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+87            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+87-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+91            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+91-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+92-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\cd62c478e43bdc2febd4917c8118122d\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+93        <uses-library
+93-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f9fa4a77de14af7c98c16dab22721de7\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+94            android:name="org.apache.http.legacy"
+94-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f9fa4a77de14af7c98c16dab22721de7\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+95            android:required="false" />
+95-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f9fa4a77de14af7c98c16dab22721de7\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+96
+97        <provider
+97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\fdb421d1f1d38e8ee580493e4442c829\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+98            android:name="com.google.firebase.provider.FirebaseInitProvider"
+98-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\fdb421d1f1d38e8ee580493e4442c829\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+99            android:authorities="com.example.myapplication2020.firebaseinitprovider"
+99-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\fdb421d1f1d38e8ee580493e4442c829\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+100            android:exported="false"
+100-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\fdb421d1f1d38e8ee580493e4442c829\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+101            android:initOrder="100" />
+101-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\fdb421d1f1d38e8ee580493e4442c829\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e0d27b40138423467c558c378bd5fba7\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\6f35b2ab0f6d2292e40dde792a51fb81\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\6f35b2ab0f6d2292e40dde792a51fb81\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\6f35b2ab0f6d2292e40dde792a51fb81\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+111
+112        <provider
+112-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+113            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+113-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+114            android:authorities="com.example.myapplication2020.lifecycle-process"
+114-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+115            android:exported="false"
+115-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+116            android:multiprocess="true" />
+116-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\024ea0ce50edbf5c6fb56a3095e32be1\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+117    </application>
+118
+119</manifest>

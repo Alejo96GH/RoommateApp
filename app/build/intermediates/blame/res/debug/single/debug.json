@@ -24,6 +24,10 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_arriendo.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\item_arriendo.xml"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -92,6 +96,10 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icah.png.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\drawable\\icah.png"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0fbe931aee3b8f6ac6e777aac58123c\\core-1.0.2\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
@@ -120,6 +128,10 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_iavatar.png.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\drawable\\iavatar.png"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_fab_background.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\151f9b9858f4adc17a5dedd6795a10aa\\material-1.0.0\\res\\drawable\\design_fab_background.xml"
     },
@@ -138,6 +150,10 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0fbe931aee3b8f6ac6e777aac58123c\\core-1.0.2\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ih.png.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\drawable\\ih.png"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -248,6 +264,10 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_imas.png.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\drawable\\imas.png"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
     },
@@ -262,6 +282,10 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_agregar_3.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_agregar_3.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -300,12 +324,12 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0fbe931aee3b8f6ac6e777aac58123c\\core-1.0.2\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0d27b40138423467c558c378bd5fba7\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
-    },
-    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0d27b40138423467c558c378bd5fba7\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -330,10 +354,6 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_siguiente_agregar.xml.flat",
-        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_siguiente_agregar.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -433,7 +453,7 @@
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\anim_nav_default_pop_enter_anim.xml.flat",
-        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\068893b4903fbd74d815f54db06d9efd\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_pop_enter_anim.xml"
+        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\44a8fd8a9c4e02a78ada51826dca3a62\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_pop_enter_anim.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -549,7 +569,7 @@
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\anim_nav_default_enter_anim.xml.flat",
-        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\068893b4903fbd74d815f54db06d9efd\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_enter_anim.xml"
+        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\44a8fd8a9c4e02a78ada51826dca3a62\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_enter_anim.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -952,6 +972,10 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_agregar_2.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_agregar_2.xml"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\layout\\abc_list_menu_item_icon.xml"
     },
@@ -1016,6 +1040,10 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_agregar_1.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_agregar_1.xml"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\color-v23\\abc_color_highlight_material.xml"
     },
@@ -1038,6 +1066,10 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ia.png.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\drawable\\ia.png"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -1240,8 +1272,12 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\151f9b9858f4adc17a5dedd6795a10aa\\material-1.0.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_list.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\fragment_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\anim_nav_default_pop_exit_anim.xml.flat",
-        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\068893b4903fbd74d815f54db06d9efd\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_pop_exit_anim.xml"
+        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\44a8fd8a9c4e02a78ada51826dca3a62\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_pop_exit_anim.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -1262,10 +1298,6 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_lista.xml.flat",
-        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\fragment_lista.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -1344,6 +1376,10 @@
         "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_descripcion_principal.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_descripcion_principal.xml"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0d27b40138423467c558c378bd5fba7\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
@@ -1394,6 +1430,10 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_descripcion_publicaciones.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_descripcion_publicaciones.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -1456,6 +1496,10 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\151f9b9858f4adc17a5dedd6795a10aa\\material-1.0.0\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic.png.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\drawable\\ic.png"
+    },
+    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
@@ -1486,10 +1530,6 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0d27b40138423467c558c378bd5fba7\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_agregar.xml.flat",
-        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_agregar.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
@@ -1538,6 +1578,10 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_descripcion_favoritos.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_descripcion_favoritos.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -1912,12 +1956,12 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\e0fbe931aee3b8f6ac6e777aac58123c\\core-1.0.2\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sesion.xml.flat",
         "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_sesion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -1940,10 +1984,6 @@
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ultima_agregar.xml.flat",
-        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_ultima_agregar.xml"
-    },
-    {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -1961,7 +2001,7 @@
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\anim_nav_default_exit_anim.xml.flat",
-        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\068893b4903fbd74d815f54db06d9efd\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_exit_anim.xml"
+        "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\44a8fd8a9c4e02a78ada51826dca3a62\\jetified-navigation-ui-2.0.0\\res\\anim\\nav_default_exit_anim.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",
@@ -1998,6 +2038,10 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -2086,6 +2130,10 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\151f9b9858f4adc17a5dedd6795a10aa\\material-1.0.0\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edicion_perfil.xml.flat",
+        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\activity_edicion_perfil.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -2218,10 +2266,6 @@
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Alejandro\\.gradle\\caches\\transforms-2\\files-2.1\\155da8816bded5314aee8803525ee313\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
-        "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
-        "source": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\src\\main\\res\\layout\\item.xml"
     },
     {
         "merged": "C:\\Users\\Alejandro\\AndroidStudioProjects\\Roommate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",

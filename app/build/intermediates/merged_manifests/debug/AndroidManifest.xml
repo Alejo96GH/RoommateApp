@@ -8,7 +8,19 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <application
+        android:name="com.example.myapplication2020.SesionPrincipal.SesionRoom"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -16,18 +28,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.myapplication2020.UltimaAgregarActivity" />
-        <activity android:name="com.example.myapplication2020.SiguienteAgregarActivity" />
-        <activity android:name="com.example.myapplication2020.AgregarActivity" />
-        <activity android:name="com.example.myapplication2020.PublicacionesActivity" />
+        <activity android:name="com.example.myapplication2020.EnDiseño.EdicionPerfilActivity" />
+        <activity android:name="com.example.myapplication2020.SesionDescripcion.ChatActivity" />
+        <activity android:name="com.example.myapplication2020.SesionDescripcion.DescripcionFavoritosActivity" />
+        <activity android:name="com.example.myapplication2020.SesionDescripcion.DescripcionPublicacionesActivity" />
+        <activity android:name="com.example.myapplication2020.SesionDescripcion.DescripcionPrincipalActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="com.example.myapplication2020.SesionAgregar.AgregarActivity1" />
+        <activity android:name="com.example.myapplication2020.SesionAgregar.AgregarActivity2" />
+        <activity android:name="com.example.myapplication2020.SesionAgregar.AgregarActivity3" />
+        <activity android:name="com.example.myapplication2020.SesionPublicaciones.PublicacionesActivity" />
         <activity
-            android:name="com.example.myapplication2020.SplashActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:name="com.example.myapplication2020.EtapaInicial.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.myapplication2020.SesionActivity"
+            android:name="com.example.myapplication2020.EtapaInicial.SesionActivity"
+            android:label="@string/nombre_de_aplicacion" />
+        <activity
+            android:name="com.example.myapplication2020.SesionPrincipal.PrincipalActivity"
             android:label="@string/nombre_de_aplicacion" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,39 +59,51 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.myapplication2020.PrincipalActivity"
-            android:label="@string/nombre_de_aplicacion" >
-        </activity>
-        <activity
-            android:name="com.example.myapplication2020.RegisterActivity"
-            android:label="@string/nombre_de_aplicacion" >
-        </activity>
-        <activity
-            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:name="com.example.myapplication2020.EtapaInicial.RegisterActivity"
+            android:label="@string/nombre_de_aplicacion" />
+
+        <provider
+            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+            android:authorities="com.example.myapplication2020.DebugDBInitProvider"
+            android:enabled="true"
+            android:exported="false" />
 
         <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false" />
+        <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
             android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
         <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.myapplication2020.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"

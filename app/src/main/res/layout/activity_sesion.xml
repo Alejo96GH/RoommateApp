@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/ifondoaplicacion"
     android:orientation="vertical"
-    tools:context=".PrincipalActivity"
+    tools:context=".SesionPrincipal.PrincipalActivity"
     >
 
     <ImageView

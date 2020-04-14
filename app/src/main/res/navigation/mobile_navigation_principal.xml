@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/mo_lista"
-        android:name="com.example.myapplication2020.ListaFragment"
+        android:name="com.example.myapplication2020.SesionPrincipal.ListaFragment"
         android:label="@string/lista"
-        tools:layout="@layout/fragment_lista" />
+        tools:layout="@layout/fragment_list" />
 
     <fragment
         android:id="@+id/mo_mapa"
-        android:name="com.example.myapplication2020.MapaFragment"
+        android:name="com.example.myapplication2020.SesionPrincipal.MapaFragment"
         android:label="@string/mapa"
         tools:layout="@layout/fragment_mapa" />
 
     <fragment
         android:id="@+id/mo_perfil"
-        android:name="com.example.myapplication2020.PefilFragment"
+        android:name="com.example.myapplication2020.SesionPrincipal.PefilFragment"
         android:label="@string/perfil"
         tools:layout="@layout/fragment_perfil" />
 </navigation>
